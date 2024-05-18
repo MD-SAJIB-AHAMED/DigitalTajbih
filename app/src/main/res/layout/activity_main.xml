@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/islamicbg"
+    tools:context=".MainActivity"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ডিজিটাল তাজবিহ"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:background="@drawable/bottom_shade"
+        android:layout_margin="20dp"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/countDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="200sp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="#049587"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        >
+
+
+        <Button
+            android:id="@+id/resetbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cardview_shadow_end_color"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/reset"
+
+            />
+
+        <Button
+            android:id="@+id/addbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cardview_shadow_end_color"
+            android:drawableRight="@drawable/plus"
+
+
+            />
+        <Button
+            android:id="@+id/subbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cardview_shadow_end_color"
+            android:textSize="20sp"
+            android:drawableRight="@drawable/minus"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
